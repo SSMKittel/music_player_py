@@ -1,8 +1,8 @@
 [Unit]
-Description=Shutdown pin 21
+Description=Volume down pin 20
 
 [Service]
-ExecStart=/usr/bin/python3 -u shutdown-press-simple.py
+ExecStart=/usr/bin/python3 -u volume-down.py
 WorkingDirectory=/home/pi
 StandardOutput=inherit
 StandardError=inherit
